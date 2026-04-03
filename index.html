@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amman Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/LOGO.png" alt="Amman studios">
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1 class="reveal">Capture The Moments</h1>
+        <p class="reveal">Professional Wedding & Event Photography</p>
+        <a href="#packages" class="btn reveal">Book a Function</a>
+    </section>
+
+    <section class="container" id="gallery">
+        <h2 class="section-title reveal">Our Portfolio</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600" alt="Wedding">
+                <div class="overlay">Wedding Shoots</div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=600" alt="Events">
+                <div class="overlay">Traditional Functions</div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1471341971476-3d8553b4bfd5?q=80&w=600" alt="Portrait">
+                <div class="overlay">Portraits</div>
+            </div>
+            <div class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=600" alt="Cinema">
+                <div class="overlay">Cinematography</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="packages">
+        <h2 class="section-title reveal">Booking Packages</h2>
+        <div class="packages-grid">
+            <div class="package-card reveal">
+                <span class="day-tag">1 Day</span>
+                <h3>Photo Only</h3>
+                <div class="price">₹2,500</div>
+                <button class="select-btn" onclick="selectPackage('1 Day - Photo (₹2,500)')">Select</button>
+            </div>
+            <div class="package-card reveal highlight">
+                <span class="day-tag">1 Day</span>
+                <h3>Photo + Video</h3>
+                <div class="price">₹8,000</div>
+                <button class="select-btn" onclick="selectPackage('1 Day - Photo/Video (₹8,000)')">Select</button>
+            </div>
+            <div class="package-card reveal">
+                <span class="day-tag">2 Days</span>
+                <h3>Photo Only</h3>
+                <div class="price">₹3,500</div>
+                <button class="select-btn" onclick="selectPackage('2 Days - Photo (₹3,500)')">Select</button>
+            </div>
+            <div class="package-card reveal highlight">
+                <span class="day-tag">2 Days</span>
+                <h3>Photo + Video</h3>
+                <div class="price">₹15,000</div>
+                <button class="select-btn" onclick="selectPackage('2 Days - Photo/Video (₹15,000)')">Select</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" >
+        <div id="contact">
+        <a href="tel:+918610961323" class="phone-button">
+            <img src="assets/Phone_iOS.png" alt="call us" target="_blank">
+        </a>
+        <a href="https://wa.me/918610961323?text=Hello, I would like to book a photography service." class="whatsapp-button" target="_blank">
+            <img src="assets/WhatsApp_icon.png" alt="whatsapp">
+        </a>
+        <p id="txt">contact us</p>
+        </div>
+    </section>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
