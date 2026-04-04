@@ -37,6 +37,7 @@ nav {
 
 @media (max-width: 575px){
     .hamburger{
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
